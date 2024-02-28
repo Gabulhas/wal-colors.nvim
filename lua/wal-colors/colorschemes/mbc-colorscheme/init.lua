@@ -3,7 +3,6 @@ local M = {}
 M.highlights_base = function(colors)
     local configs = {
         require("wal-colors.colorschemes.mbc-colorscheme.treesitter"),
-        require("wal-colors.colorschemes.mbc-colorscheme.cornelis"),
         require("wal-colors.colorschemes.mbc-colorscheme.treesitter-context"),
         require("wal-colors.colorschemes.mbc-colorscheme.diagnostic"),
         require("wal-colors.colorschemes.mbc-colorscheme.cmp"),
@@ -51,7 +50,7 @@ M.highlights_base = function(colors)
     set_hl("Comment", {fg = colors.color1})
     set_hl("Folded", {fg = colors.color4, bg = colors.background})
     set_hl("FoldColumn", {fg = colors.color4, bg = colors.background})
-    set_hl("LineNr", {fg = colors.color8, bg = colors.background:darkened()})
+    set_hl("LineNr", {fg = colors.color8, bg = colors.background})
     set_hl("FloatBorder",
            {fg = colors.foreground:darkened(0.3), bg = colors.background})
     set_hl("Whitespace", {fg = colors.color1})

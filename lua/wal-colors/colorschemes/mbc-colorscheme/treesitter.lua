@@ -25,7 +25,7 @@ M.setup = function(set_hl, get_hl, colors)
     set_hl("@keyword", {fg = colors.magenta})
     set_hl("@keyword.function", {fg = colors.bright_magenta})
     set_hl("@keyword.operator", {fg = colors.white})
-    set_hl("@keyword.return", {fg = colors.bright_white})
+    set_hl("@keyword.return", {fg = colors.bright_yellow})
 
     -- Types and classes
     set_hl("@type", {fg = colors.bright_green})
@@ -37,7 +37,7 @@ M.setup = function(set_hl, get_hl, colors)
     set_hl("@string", {fg = colors.bright_red})
     set_hl("@string.regex", {fg = colors.red})
     set_hl("@string.escape", {fg = colors.yellow})
-    set_hl("@symbol", {fg = colors.bright_yellow})
+    set_hl("@symbol", {fg = colors.bright_blue})
 
     -- Numbers
     set_hl("@number", {fg = colors.bright_cyan})
