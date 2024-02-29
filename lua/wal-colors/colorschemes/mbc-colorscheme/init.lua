@@ -66,10 +66,7 @@ M.highlights_base = function(colors)
     set_hl("QuickFixLine", {bg = colors.color2})
     set_hl("PmenuSbar", {bg = colors.background})
     set_hl("PmenuThumb", {bg = colors.color2})
-    set_hl("MatchParen", {
-        fg = colors.background,
-        bg = colors.yellow:desaturated(0.2):lightened(0.2)
-    })
+    set_hl("MatchParen", {fg = colors.yellow, bg = colors.background})
     set_hl("Cursor", {fg = colors.foreground, bg = colors.cursor})
     set_hl("lCursor", {fg = colors.foreground, bg = colors.cursor})
     set_hl("CursorIM", {fg = colors.foreground, bg = colors.cursor})
